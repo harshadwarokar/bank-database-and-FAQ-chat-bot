@@ -1,0 +1,23 @@
+# Streamlit for the web UI
+streamlit>=1.15.0
+
+# Environment variable management
+python-dotenv>=0.21.0
+
+# LangChain (ensure you have a version that supports Groq integration)
+langchain>=0.0.200
+
+# LangChain community utilities (for SQLDatabase)
+langchain-community>=0.0.1
+
+# LangChain core prompt utilities
+langchain-core>=0.0.1
+
+# ChromaDB for vector search (FAQ retrieval)
+chromadb>=0.3.0
+
+# Sentence Transformers for embedding generation
+sentence-transformers>=2.2.0
+
+# PostgreSQL adapter for Python
+psycopg2-binary>=2.9.6
